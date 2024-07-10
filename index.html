@@ -57,7 +57,7 @@
 		  </tr>
 	    </table>			
     </div>
-	<div class="content3">
+	<div class="content4">
         <h3> PLL Control Design </h3>
 		<ul>
            <li>PLL is a non-linear control system and its design is not trivial. Generally, a small signal model is used to determine the control parameters, which corresponds to a linearization around an operating point. </li>
@@ -73,7 +73,7 @@
 		        $$ G_{PI}(z)=\frac{92z-90.94}{z-1} \ (1)$$
 		</ul>		
     </div>
-	<div class="content3">
+	<div class="content5">
         <h3> PLL Performance </h3>
 		<ul>
 		   <li>Fig. 4 presents a simulation result of the designed PLL for a positive frequency jump of 10Hz applied to the input signal at 0.15s, and a negative frequency step of -20Hz applied to the input signal at 0.35s. As we can see, the PLL frequency follows the input frequency, keeping the signal Vd and the input signal equal in phase and frequency (average value).</li>		
@@ -117,7 +117,7 @@
 	    </table>
 		
     </div>		
-	<div class="content4">
+	<div class="content6">
         <h3> PLL Test</h3>
 		<ul>
            <li> In order to verify the operation of the digital PLL in Arduino, a second Arduino board was used. This second unit run a code of a signal generator and it is connected to the first unit as presented in Fig.8 </li>
@@ -136,7 +136,7 @@
             <img src="System_Test_Diagram.png" style="width:50%">
 		    <figcaption>Fig.8 - Scheme for the PLL Test </figcaption>
         </figure>		
-		<table class="table2">
+		<table class="table1">
 		<caption>Table I - Duration of calculating trigonometric functions</caption>
          <tr>
            <th>Function</th>
@@ -186,7 +186,7 @@
            <li> A link for a video with the PLL test in the actual plant is presented below. </li>
 	    </ul>
 	</div>	
-	<div class="content3">
+	<div class="content7">
         <h3> Grid Frequency Meter </h3>
 		<ul> 
 		   <li>As can be seen in Figs. 6 and 7, the PLL frequency, even in the steady state, presents a significant ripple at at the double of the frequency of the input signal. In order to show the average frequency in a LCD, a digital first order low-pass filter is used. This filter doesn't affect the PLL dynamics, since it is not a part of the PLL feedback loop. Besides that, it is simple and implies a small computational burden.</li> 
@@ -209,14 +209,14 @@
 		    <figcaption>Fig.10 - Scheme for the PLL and Grid Frequency Meter </figcaption>
         </figure>	
 	</div>	
-	<div class="content4">
+	<div class="content8">
         <h3> Links </h3>
 		<ul> 
 		   <li><a href="https://github.com/Ernane-AAC/Arduino-PLL/tree/main/PLL_Arduino_Code">Complete Code for the Arduino PLL</a></li>
 	       <li><a href="https://youtu.be/9u9lPNp1WoQ">Video showing the PLL Test and the Frequency Meter Running.</a></li>
 		</ul>
 	</div>
-	<div class="content5">
+	<div class="content9">
         <h3> References </h3>
         <p>[1] Remus Teodorescu, Marco Liserre and Pedro Rodríguez, Grid Converters for Photovoltaic and Wind Power Systems, John Wiley & Sons, Ltd., 2011, ISBN: 978-0-470-05751-3.</p>
 	    <p>[2] Masoud Karimi-Ghartema, Enhanced Phase-Locked Loop Structures for Power and Energy Applications, John Wiley & Sons, 2014, ISBN:‎ 978-1118795026.</p>

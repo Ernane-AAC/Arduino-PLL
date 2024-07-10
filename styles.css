@@ -13,22 +13,7 @@ figure {
 }
 
 /* Style for table1 */
-.table1 {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 60%;
-}
 .table1 td, .table1 th {
-  border: 2px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-.table1 tr:nth-child(even) {
-  background-color: #dddddd;
-}
-
-/* Style for table2 */
-.table2 td, .table2 th {
   border: 2px solid;
   text-align: left;
   padding: 8px;
@@ -45,7 +30,7 @@ figure {
 .content2{
    margin:auto
    padding: 25px 50px;
-   background-color: #A9F5F2;
+   background-color: #FFF8DC;
 }
 
 .content3{
@@ -57,9 +42,32 @@ figure {
 .content4{
    margin:auto
    padding: 25px 50px;
-   background-color: #0BD1F9;
+   background-color: #F0F8FF;
 }
 .content5{
+   margin:auto
+   padding: 25px 50px;
+   background-color: #91eeff;
+}
+
+.content6{
+   margin:auto
+   padding: 25px 50px;
+   background-color: #ADD8E6;
+}
+
+.content7{
+   margin:auto
+   padding: 25px 50px;
+   background-color: #E0FFFF;
+}
+
+.content8{
+   margin:auto
+   padding: 25px 50px;
+   background-color: #F0FFFF;
+}
+.content9{
    margin:auto
    padding: 25px 50px;
    background-color: #91eeff;
