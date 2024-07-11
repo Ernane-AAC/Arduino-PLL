@@ -68,7 +68,7 @@
 				 <li>T<sub>i</sub> = 0.0217 (s) </li>
               </ul>
 		   <li>As can be seen in [1], the design consider a settling time of 100 ms. This implies a dynamic behaviour in the PLL loop that results in some level of oscillation in frequency in the steady state. It is possible to change the loop filter function to reduce the level of oscillation, but certainly this will imply a slow dynamic behaviour in the PLL loop. If your application needs a better solution, see other options in [1],[2], but probably a more powerful microcontroller will be required.</li>  
-           <li>It is important to emphasize that the parameters above imply that the input signal and Vq sinal are in pu (per unit value). The gain and offset of the ADC system need to be adjusted for that. See more details in <a href="https:https://ernane-aac.github.io/RMS-Voltage-Measurement/">RMS Voltage Measurement Using Arduino UNO</a>.  </li>
+           <li>It is important to emphasize that the parameters above imply that the input signal and Vq signal are in pu (per unit value). The gain and offset of the ADC system need to be adjusted for that. See more details in <a href="https://ernane-aac.github.io/RMS-Voltage-Measurement/">RMS Voltage Measurement Using Arduino UNO</a>.  </li>
            <li>In order to achieve real time execution in Arduino, a sampling rate of 4kHz is used. Thus, converting the PI parameters to the discrete version at this sampling rate and using the zero-order-hold method, we have: </li>
 		        $$ G_{PI}(z)=\frac{92z-90.94}{z-1} \ (1)$$
 		</ul>		
