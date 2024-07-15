@@ -2,7 +2,7 @@
 // PLL Arduino Code
 // UNVERSIDADE FEDERAL DE UBERLÂNDIA - Faculdade de Engenharia Elétrica
 // Subject: DSP-EPS - Prof. Ernane A. A. Coelho - http://lattes.cnpq.br/9183492978798433
-// This code is only for the demonstration of PLL working principle, 
+// This code is only for the demonstration of the PLL working principle, 
 //    since the Atmega328p has no enough performance to run sophisticated PLL algorithms, 
 //    like we see in the grid-connected inverter control.
 //  * run on Arduino Lab System - Module 1 (Arduino UNO - Atmega328p) 
