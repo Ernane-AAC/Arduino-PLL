@@ -19,7 +19,7 @@
 //  1st order digital LPF G(z)=  ------------  cut-off frequency=0.12Hz, sample rate=4000Hz
 //                                z - 0.99843
 //  Note: The use of a LPF into PLL control loop is not recommended, 
-//        since it has implies a poor dynamic performance or instability.
+//        since it implies a poor dynamic performance or instability.
 // ========================================================================================
 //
 #include <math.h>
